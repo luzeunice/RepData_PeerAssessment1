@@ -1,11 +1,6 @@
+# Reproducible Research: Peer Assessment 1
 
----
-title: 'Reproducible Research: Peer Assessment 1'
-output:
-  html_document:
-    keep_md: yes
----
-Link en Rpubs: http://rpubs.com/luzangeles/53816 
+Link to the html in Rpubs: http://rpubs.com/luzangeles/53816 
 
 by Luz Eunice
 
