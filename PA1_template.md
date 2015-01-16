@@ -1,5 +1,6 @@
 # Reproducible Research: Peer Assessment 1
 
+Link en Rpubs: http://rpubs.com/luzangeles/53816 
 
 by Luz Eunice
 
@@ -7,7 +8,7 @@ by Luz Eunice
 
 ```r
 library(lubridate)
-unzip("repdata_data_activity.zip")
+unzip("repdata_data_activity.zip")                                                                                    
 activity <- read.csv("activity.csv")
 activity ["md"] <- paste(month (as.Date(activity$date)) ,sprintf("%02.f", day (as.Date(activity$date))),sep="-")
 ```
@@ -23,7 +24,7 @@ steps<- aggregate(steps ~ md, data=activity, FUN=sum)
 barplot(steps$steps, names.arg=steps$md, xlab="date (   mm - dd ) " ,las =2,, ylab="steps")
 ```
 
-![](PAI_template_files/figure-html/unnamed-chunk-2-1.png) 
+![](PA1_template_files/figure-html/unnamed-chunk-2-1.png) 
 
 2. Calculate and report the **mean** and **median** total number of
 steps taken per day
@@ -59,7 +60,7 @@ steps <- aggregate(steps ~ interval, data=activity, FUN=mean)
 plot(steps, type="l")
 ```
 
-![](PAI_template_files/figure-html/unnamed-chunk-4-1.png) 
+![](PA1_template_files/figure-html/unnamed-chunk-4-1.png) 
 
 2.Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
 
@@ -121,7 +122,7 @@ steps <- aggregate(steps ~ md, data=activity, FUN=sum)
 barplot(steps$steps, names.arg=steps$md, xlab="date (   mm - dd ) " ,las =2,, ylab="steps")
 ```
 
-![](PAI_template_files/figure-html/unnamed-chunk-8-1.png) 
+![](PA1_template_files/figure-html/unnamed-chunk-8-1.png) 
 
 ```r
 mean(steps$steps)
@@ -179,4 +180,4 @@ xyplot(steps ~ interval | wdayend, steps, type = "l", layout = c(1, 2),
        xlab = "Interval", ylab = "Number of steps")
 ```
 
-![](PAI_template_files/figure-html/unnamed-chunk-10-1.png) 
+![](PA1_template_files/figure-html/unnamed-chunk-10-1.png) 
