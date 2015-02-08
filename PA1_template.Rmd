@@ -26,7 +26,7 @@ barplot(steps$steps, names.arg=steps$md, xlab="date (   mm - dd ) " ,las =2,, yl
 ```
 
 
-![plot histogram](figure-html/unnamed-chunk-2-1.png ) 
+
 
 
 
