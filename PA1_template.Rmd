@@ -3,6 +3,9 @@
 Link to the html in Rpubs: http://rpubs.com/luzangeles/53816 
 by Luz Eunice Angeles
 
+
+opts_chunk$set(echo=TRUE, results='asis')
+
 ## Loading and preprocessing the data
 ```{r,  echo = TRUE }
 library(lubridate)
