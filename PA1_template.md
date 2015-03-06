@@ -29,7 +29,7 @@ barplot(steps$steps, names.arg=steps$md, xlab="date (   mm - dd ) " ,las =2,, yl
 ![](PA1_template_files/figure-html/unnamed-chunk-2-1.png) 
 
 
-![plot 01](figures/plot01.png) 
+
 
  
 2. Calculate and report the **mean** and **median** total number of
@@ -68,7 +68,7 @@ plot(steps, type="l")
 
 ![](PA1_template_files/figure-html/unnamed-chunk-4-1.png) 
 
-![plot 02](figures/plot02.png) 
+
 
 
 2.Which 5-minute interval, on average across all the days in the dataset, contains the maximum number of steps?
@@ -150,7 +150,7 @@ median(steps$steps)
 ```
 
 
-![plot 03](figures/plot03.png) 
+
 
 The vale of the mean and the median is the same than the previos one. 
 There is no impact of imputing missing data on the estimates of the total daily number of steps
@@ -194,4 +194,3 @@ xyplot(steps ~ interval | wdayend, steps, type = "l", layout = c(1, 2),
 
 ![](PA1_template_files/figure-html/unnamed-chunk-10-1.png) 
 
-![plot 04](figures/plot04.png) 
