@@ -5,7 +5,7 @@ keep_md: yes
 ---
 # Reproducible Research: Peer Assessment 1
 
-Link to the html in Rpubs: http://rpubs.com/luzangeles/53816 
+Link to the html in Rpubs: http://rpubs.com/luzangeles/59152 
 by Luz Eunice Angeles
 
 
